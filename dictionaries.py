@@ -52,3 +52,20 @@ print(keys)
 
 values = crazy_cruella_vil.values()
 print(values)
+
+
+
+#iterating over a hash /dictionary:
+
+
+    #using for loop
+print(crazy_cruella_vil.keys())
+
+#When we iterate over a dictinary we get individual keys
+for placeholder in crazy_cruella_vil:
+    #this place holder is the individual keys
+    #Put pkaceholder/individual key in the directory to extract the indiv values
+
+    # print(placeholder)
+    # print(crazy_cruella_vil['placeholder'])
+    print(placeholder + ':', crazy_cruella_vil[placeholder])

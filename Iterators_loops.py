@@ -1,3 +1,4 @@
+import time
 #Iterators go over each iteratable object
     #for loops,while
 
@@ -14,3 +15,5 @@ for landlord in crazy_ex_landlords:
     print('hey doing some cool code')
     print(landlord)
     time.sleep(3)
+
+for obj in
