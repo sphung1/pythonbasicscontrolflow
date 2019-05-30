@@ -42,3 +42,13 @@ print(crazy_cruella_vil['door_number'])
 
 crazy_cruella_vil['favourite_colour'] = 'Black & White'
 print(crazy_cruella_vil['favourite_colour'])
+
+
+#USEFUL methods of dictionaires
+    #Getting all the keys out
+
+keys = crazy_cruella_vil.keys()
+print(keys)
+
+values = crazy_cruella_vil.values()
+print(values)
