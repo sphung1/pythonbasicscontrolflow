@@ -2,7 +2,7 @@
 #keep lists of objects ordered by index
 #to delcare a list use the []
 #separate objects using commas,
-#List AKA --> Arrays
+#List AKA --> Arrays or (confusingly) objects in JS
 
 
 crazy_ex_landlords = ['Jane', 'Mike','Cruela']
