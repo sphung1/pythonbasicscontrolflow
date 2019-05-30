@@ -27,13 +27,14 @@ Villan_3 = {
      'Skills':['Stealing', 'Running']
  }
 
-list_of_evil_people.append(crazy_cruella_vil)
-list_of_evil_people.append(villan_2)
-list_of_evil_people.append(villan_3)
+# list_of_evil_people.append(crazy_cruella_vil)
+# list_of_evil_people.append(villan_2)
+# list_of_evil_people.append(villan_3)
+#
+# print(list_of_evil_people)
+# print(len(list_of_evil_people))
+#
+# #How do we access mickey mouse' details?
+#
+# print(list_of_evil_people[2])
 
-print(list_of_evil_people)
-print(len(list_of_evil_people))
-
-#How do we access mickey mouse' details?
-
-print(list_of_evil_people[2])
