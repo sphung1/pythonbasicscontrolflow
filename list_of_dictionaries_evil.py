@@ -11,7 +11,7 @@ crazy_cruella_vil = {
 
 }
 
-Villan_2 = {
+villan_2 = {
      'Name': 'Mickey Mouse',
      'Occupation': 'Entertainer',
      'Address':'DisenyLand',
@@ -19,7 +19,7 @@ Villan_2 = {
      'Skills': ['Being loud', 'Slapping', 'Autographs']
  }
 
-Villan_3 = {
+villan_3 = {
      'Name' : 'V3',
      'Occupation': 'Robber',
      'Address': 'Streets',
@@ -27,14 +27,17 @@ Villan_3 = {
      'Skills':['Stealing', 'Running']
  }
 
-# list_of_evil_people.append(crazy_cruella_vil)
-# list_of_evil_people.append(villan_2)
-# list_of_evil_people.append(villan_3)
-#
-# print(list_of_evil_people)
-# print(len(list_of_evil_people))
-#
-# #How do we access mickey mouse' details?
-#
-# print(list_of_evil_people[2])
+list_of_evil_people.append(crazy_cruella_vil)
+list_of_evil_people.append(villan_2)
+list_of_evil_people.append(villan_3)
 
+# #How do we access mickey mouse' details?
+print(list_of_evil_people[1])
+
+for dict in list_of_evil_people:
+    print(dict)
+    print(type(dict))
+    for key in dict:
+        print(key)
+        print (dict[key])
+        print((str)(key) + ':'. dict[key])
