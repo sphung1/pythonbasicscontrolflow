@@ -40,3 +40,33 @@ combined_list = [1,'10', 'ten', True, crazy_ex_landlords]
 print (combined_list)
 
 #List slicing --> is used to manage lists
+    #print from 3rd index to end
+print (combined_list[3:])
+
+#prints from 3rd index to start
+print (combined_list[:3])
+
+#prints from specified from index until specifed index but not inclusive of last
+print(combined_list[0:3])
+
+#SKIP slicing --> uses :: and returns from the 1st index and skips every
+#below skips every nth index [x::n]
+print(combined_list[0::2])
+
+
+
+#
+
+
+
+#TUPLES --> are immutable lists
+    #behaves the same way
+    #accessed via index
+    #defined with ()
+
+mortal_enemies = ('HELLO KITTY','SAILOR MOON','CAPTAIN AMERICA','EYE-PATCH MORTY')
+print(type(mortal_enemies))
+
+#If we try to re-assign an index it breaks because its immutable like below...
+#mortal_enemies[1] = 'Goku'
+
